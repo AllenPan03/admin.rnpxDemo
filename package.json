@@ -1,6 +1,6 @@
 {
-  "name": "ant-design-pro",
-  "version": "4.2.0",
+  "name": "admin.rnpxDemo",
+  "version": "0.0.1",
   "private": true,
   "description": "An out-of-box UI solution for enterprise applications",
   "env": {
