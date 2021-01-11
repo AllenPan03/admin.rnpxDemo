@@ -1,14 +1,10 @@
 import { DefaultFooter, getMenuData, getPageTitle } from '@ant-design/pro-layout';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { Link, SelectLang, useIntl, connect } from 'umi';
-// import Footer from './Footer';
 import React from 'react';
-import logo from '../assets/logo.png';
 import styles from './UserLayout.less';
-import { list as getProList } from '@/components/api/backend/product';
 
 const UserLayout = (props) => {
-  // getProList();
   const {
     route = {
       routes: [],
@@ -44,7 +40,6 @@ const UserLayout = (props) => {
           <div className={styles.top}>
             <div className={styles.header}>
               <Link to="/">
-                {/* <img alt="logo" className={styles.logo} src={logo} /> */}
                 <span className={styles.title}>RNPX后台管理</span>
               </Link>
             </div>
